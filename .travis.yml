@@ -1,7 +1,8 @@
 language: php
 
 php:
-  - 7.2
+  - 7.1
+  - 7.4
   - 8.0
 
 env:
@@ -12,7 +13,6 @@ env:
 before_script:
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-source
-  - printf "\n" | pecl install imagick
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover
