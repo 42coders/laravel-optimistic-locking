@@ -1,5 +1,5 @@
 # Laravel Optimistic Locking
-![Build Status](http://img.shields.io/travis/reshadman/laravel-optimistic-locking/master.png?style=flat-square)
+[![Build Status](https://github.com/42coders/laravel-optimistic-locking/actions/workflows/test.yml/badge.svg)](https://github.com/42coders/laravel-optimistic-locking/actions/workflows/test.yml)
 
 Adds optimistic locking feature to Eloquent models.
 
@@ -8,7 +8,7 @@ Adds optimistic locking feature to Eloquent models.
 composer require reshadman/laravel-optimistic-locking
 ```
 
-> This package supports Laravel 5.5.*,  5.6.*, 5.7.*, 5.8.*, 6.* and 7.*.
+> This package supports Laravel 5.5.*,  5.6.*, 5.7.*, 5.8.*, 6.*, 7.*, 8.* and 9.*.
 
 ## Usage
 
